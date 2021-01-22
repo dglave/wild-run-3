@@ -50,7 +50,13 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 ```
 
 ```{r break-it-2}
+## Lets do it again 
 
+ggplot(data = diamonds, aes(x = carat, y = price, color = color)) +
+  geom_point()+
+  theme_classic()
+
+## oh yeah 
 ```
 
 ## END Discussion 3
