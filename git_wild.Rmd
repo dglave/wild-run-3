@@ -20,7 +20,7 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
   theme_bw() +
   labs(title = "Dylan was here") 
 
-# Changed a few thangs. 
+# Changed a few thangs. dddd
 ```
 
 ```{r partner_2a}
@@ -40,6 +40,7 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point() +
   theme_void()
+### yabada dabbaggg 
 ```
 
 ```{r break-it-2}
