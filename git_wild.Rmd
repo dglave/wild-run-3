@@ -37,6 +37,12 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+ggplot(data = diamonds, aes(x = depth, y = carat, color = carat)) +
+  geom_jitter() +
+  theme_classic()
+
+## Break it all down 
+
 ggplot(data = diamonds, aes(x = depth, y = carat)) +
   geom_point() +
   theme_void()
@@ -44,7 +50,19 @@ ggplot(data = diamonds, aes(x = depth, y = carat)) +
 ```
 
 ```{r break-it-2}
+
 view(iris)
+
+## Lets do it again 
+
+ggplot(data = diamonds, aes(x = carat, y = price, color = color)) +
+  geom_point()+
+  theme_classic()
+
+## oh yeah 
+
+# I decided your graph was great, so we keep it all!
+
 ```
 
 ## END Discussion 3
